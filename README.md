@@ -17,7 +17,7 @@ There are two levels to this homework assignment. The second level is optional b
 * Be sure to handle the header correctly. If you read the file without the header parameter, you may find that the column headers are included in the table rows.
 * For each notebook (one dataset per notebook), complete the following:
   * Count the number of records (rows) in the dataset.
-  * **Transform** the dataset to fit the tables in the [schema file](../Resources/schema.sql). Be sure the DataFrames match in data type and in column name.
+  * **Transform** the dataset to fit the tables in the [schema file](resources/schema.sql). Be sure the DataFrames match in data type and in column name.
   * **Load** the DataFrames that correspond to tables into an RDS instance. **Note:** This process can take up to 10 minutes for each. Be sure that everything is correct before uploading.
 
 ### Level 2
@@ -62,7 +62,7 @@ findspark.init()
 
 ### Submission
 
-* **Important** be sure to clean up all your AWS resources. Consult the [AWS cleanup guide](../Resources/AWS_cleanup.pdf) and [AWS check billing guide](../Resources/AWS_check_billing.pdf) as reference.
+* **Important** be sure to clean up all your AWS resources. Consult the [AWS cleanup guide](resources/AWS_cleanup.pdf) and [AWS check billing guide](resources/AWS_check_billing.pdf) as reference.
 * Download you Google Colab notebooks as `.ipynb` files and upload those to GitHub.
 * Copy your SQL queries into `.sql` files and upload to GitHub.
 * **Important:** Do not upload notebooks that contain your RDS password and endpoint. Be sure to delete them before making your notebook public!

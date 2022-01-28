@@ -32,7 +32,8 @@ SELECT * FROM review_id_table;
 
 SELECT * FROM products;
 
-SELECT * FROM customers;
+SELECT * FROM customers
+ORDER BY customer_count DESC;
 
 SELECT * FROM vine_table;
 
